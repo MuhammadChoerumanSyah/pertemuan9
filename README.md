@@ -75,4 +75,4 @@ for item in nilai:
 print("==================================================================")
 Setelah ini selanjutnya kita akan membuat flowcart Sebagai Berikut
 ![flowcart](foto/flowcart.png)
-# Demikian Tugas saya lebih kurang nya mohon maaf wasalammuaialaikum warahmatullahi Wabarakatuh
+# Terimakasih
