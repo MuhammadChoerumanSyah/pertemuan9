@@ -6,7 +6,9 @@
 ___________________________________________________________________________________\
 ## Program Data Mahasiswa
 pada praktikum 4 ini, saya akan membuat program sederhana untuk menginput data kedalam list.
+
 ![tugas](foto/tugas.png)
+
 ## Berikut Inputannya :
 nilai = []
 ulang = True
@@ -34,7 +36,9 @@ for item in nilai:
           .format(no=i, nama=item[0], nim=item[1], tugas=item[2], uts=item[3], uas=item[4], akhir=item[5]))
 print("==================================================================")
 Setelah Kita memasukan inputan dibawah ini ini lah hasil inputan Tersebut
-![hasil1](foto/hasil1.png) 
+
+![hasil1](foto/hasil1.png)
+ 
 Dan Setelah Kita Menemukan Hasil Nya Mari Saya Jelaskan Perinciannya
 
 1.) Langkah  Pertama  Yang Harus Lakukan Adalahkita membuat variable list kosong.
@@ -74,5 +78,7 @@ for item in nilai:
           .format(no=i, nama=item[0], nim=item[1], tugas=item[2], uts=item[3], uas=item[4], akhir=item[5]))
 print("==================================================================")
 Setelah ini selanjutnya kita akan membuat flowcart Sebagai Berikut
+
 ![flowcart](foto/flowcart.png)
+
 # Terimakasih
