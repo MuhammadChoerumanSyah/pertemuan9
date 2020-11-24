@@ -8,7 +8,7 @@ while True:
     elif c.lower() == 'l':
         i = open('database.txt','r').read().splitlines()
         P(" ╔═════════════════════════════════════════════════════════════════════╗")
-        P(" ╠════════════════════════════ DAFTAR KONTAK ══════════════════════════╣")
+        P(" ╠════════════════════════════ DAFTAR   DATA ══════════════════════════╣")
         P(" ╠══════════════════╦══════════════════╦═══════╦═══════╦═══════╦═══════╣")
         P(" ║      NAMA        ║       NIM        ║ TUGAS ║  UTS  ║  UAS  ║ AKHIR ║")
         P(" ╠══════════════════╬══════════════════╬═══════╬═══════╬═══════╬═══════╣")
@@ -24,7 +24,7 @@ while True:
         cari = input(' Mencari : ')
         i = open('database.txt','r').read().splitlines()
         P(" ╔═════════════════════════════════════════════════════════════════════╗")
-        P(" ╠════════════════════════════ DAFTAR KONTAK ══════════════════════════╣")
+        P(" ╠════════════════════════════ DAFTAR   DATA ══════════════════════════╣")
         P(" ╠══════════════════╦══════════════════╦═══════╦═══════╦═══════╦═══════╣")
         P(" ║      NAMA        ║       NIM        ║ TUGAS ║  UTS  ║  UAS  ║ AKHIR ║")
         P(" ╠══════════════════╬══════════════════╬═══════╬═══════╬═══════╬═══════╣")
@@ -134,7 +134,7 @@ while True:
         new2.close()
     elif c.lower() == 't':
         i = open('database.txt','a')
-        P(" Tambah Kontak")
+        P(" Tambah Data")
         while (True):
             nama = input(" Nama : ")
             if nama == '':
@@ -152,7 +152,7 @@ while True:
                 break
         while (True):
             try:
-                tugas  = int(input(" TUGAS  : "))
+                tugas  = int(input(" TUGAS: "))
                 if tugas == '':
                     P(' Masukan TUGAS dengan Angka')
             except ValueError:

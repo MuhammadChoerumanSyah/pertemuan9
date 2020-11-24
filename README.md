@@ -3,7 +3,7 @@
 ## Kelas:TI.20.A1
 ## NIM:312010065
 ## MATKUL: BAHASA PEMROGRAMAN
-___________________________________________________________________________________\
+__________________________________________________________________
 ## Program Data Mahasiswa
 pada praktikum 4 ini, saya akan membuat program sederhana untuk menginput data kedalam list.
 
@@ -41,9 +41,7 @@ print("==================================================================")
 ```
 
 Setelah Kita memasukan inputan dibawah ini ini lah hasil inputan Tersebut
-
-![hasil1](foto/hasil1.png)
- 
+![hasil](foto/hasil1.png)
 Dan Setelah Kita Menemukan Hasil Nya Mari Saya Jelaskan Perinciannya
 
 1.) Langkah  Pertama  Yang Harus Lakukan Adalahkita membuat variable list kosong.
@@ -92,7 +90,7 @@ Setelah ini selanjutnya kita akan membuat flowcart Sebagai Berikut
 
 ## Pertemuan 9 Modul 5
 Pada Pertemuan 9 Modul 5 dosen memberikan saya tugas untuk membuat program sederhana yang akan menampilkan daftar nilai mahasiswa. berikut soal yang dosen berikan:
-![tugas2](foto/tugas2.png)
+
 Penjelasan:
 Penggunaan if c.lower() if c.lower() fungsinya apabila user menginputkan dengan huruf besar, maka otomatis akan menjadi huruf kecil sehingga kondisi yang diinginkan tercapai. contoh:
 ```python
@@ -138,7 +136,9 @@ akhir = round((float(tugas) * 0.3)+(float(uts) * 0.35)+(float(uas) * 0.35),2)
 #Membuat Program Sederhana Menampilkan Daftar Nilai Mahasiswa
 #Koding By: Muhammad Rifai Aditiya
 #TI.20.A.1
-
+#Pertemuan 9 Praktikum 5
+pada praktikum 5 ini, saya akan membuat program sederhana untuk menginput data kedalam list.
+ ```python
 P = print
 while True:
     P("")
@@ -149,7 +149,7 @@ while True:
     elif c.lower() == 'l':
         i = open('database.txt','r').read().splitlines()
         P(" ╔═════════════════════════════════════════════════════════════════════╗")
-        P(" ╠════════════════════════════ DAFTAR KONTAK ══════════════════════════╣")
+        P(" ╠════════════════════════════ DAFTAR   DATA ══════════════════════════╣")
         P(" ╠══════════════════╦══════════════════╦═══════╦═══════╦═══════╦═══════╣")
         P(" ║      NAMA        ║       NIM        ║ TUGAS ║  UTS  ║  UAS  ║ AKHIR ║")
         P(" ╠══════════════════╬══════════════════╬═══════╬═══════╬═══════╬═══════╣")
@@ -165,7 +165,7 @@ while True:
         cari = input(' Mencari : ')
         i = open('database.txt','r').read().splitlines()
         P(" ╔═════════════════════════════════════════════════════════════════════╗")
-        P(" ╠════════════════════════════ DAFTAR KONTAK ══════════════════════════╣")
+        P(" ╠════════════════════════════ DAFTAR   DATA ══════════════════════════╣")
         P(" ╠══════════════════╦══════════════════╦═══════╦═══════╦═══════╦═══════╣")
         P(" ║      NAMA        ║       NIM        ║ TUGAS ║  UTS  ║  UAS  ║ AKHIR ║")
         P(" ╠══════════════════╬══════════════════╬═══════╬═══════╬═══════╬═══════╣")
@@ -190,8 +190,6 @@ while True:
                 if str(na) == str(target):
                     P('BERHASIL MENGHAPUS Data %s'%(target))
                     pass
-                else:
-                
                 else:
                     nm.append(str(l)+'\n')
         new = open('database.txt','w')
@@ -277,7 +275,7 @@ while True:
         new2.close()
     elif c.lower() == 't':
         i = open('database.txt','a')
-        P(" Tambah Kontak")
+        P(" Tambah Data")
         while (True):
             nama = input(" Nama : ")
             if nama == '':
@@ -295,7 +293,7 @@ while True:
                 break
         while (True):
             try:
-                tugas  = int(input(" TUGAS  : "))
+                tugas  = int(input(" TUGAS: "))
                 if tugas == '':
                     P(' Masukan TUGAS dengan Angka')
             except ValueError:
@@ -325,8 +323,10 @@ while True:
         i.close()
     else:
         P("Silahkan pilih menu yang tersedia...")
-    
-  ## Dan ini lah hasil inputannya
-  ![hasil2](foto/hasil2.png)
- 
- ## Terimakasih
+```
+Dari statement diatas, kita akan diminta untuk menginput nama, nim, nilai tugas, nilai uts, dan nilai uas, lalu system akan menjumlahkan nilai-nilai tersebut dan menghasilkan nilai akhir.
+Setelah menginput berbagai data atau item, inputan item tersebut akan masuk ke dalam list 'nilai'
+
+Terakhir kita akan mencetak hasil dari program yang telah dibuat.
+![hasil2](foto/hasil2.png)
+## Terimakasih

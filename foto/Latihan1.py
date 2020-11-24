@@ -1,6 +1,5 @@
-nilai = []
+muhanilai = []
 ulang = True
-
 while ulang:
     nama = input("Masukkan Nama: ")
     nim = input("Masukkan NIM: ")
