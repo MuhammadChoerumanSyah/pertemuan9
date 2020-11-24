@@ -9,6 +9,8 @@ pada praktikum 4 ini, saya akan membuat program sederhana untuk menginput data k
 
 ![tugas](foto/tugas.png)
 
+```python
+
 ## Berikut Inputannya :
 nilai = []
 ulang = True
@@ -35,6 +37,9 @@ for item in nilai:
     print("| {no:2d} | {nama:12s} | {nim:9s} | {tugas:5d} | {uts:5d} | {uas:5d} | {akhir:6.2f} |"
           .format(no=i, nama=item[0], nim=item[1], tugas=item[2], uts=item[3], uas=item[4], akhir=item[5]))
 print("==================================================================")
+
+```
+
 Setelah Kita memasukan inputan dibawah ini ini lah hasil inputan Tersebut
 
 ![hasil1](foto/hasil1.png)
@@ -49,7 +54,8 @@ Variable ulang = True digunakan untuk mengontrol perulangan.
 
 2.) Setelah itu  kita membuat kondisi perulangan dan statement yang akan dijalankan ketika perulangan terjadi.
     Dan Ini inputannya
-    while ulang:
+
+     while ulang:
     nama = input("Masukkan Nama: ")
     nim = input("Masukkan NIM: ")
     tugas = int(input("Masukkan Nilai Tugas: "))
@@ -67,6 +73,8 @@ Untuk keluar dari perulangan kita hanya perlu menginputkan 't' apabila diminta p
 
 4.) Terakhir kita akan mencetak hasil dari program yang telah dibuat.
 
+```python
+
 print("\n                      Daftar Nilai Mahasiswa")
 print("==================================================================")
 print("|No. |     Nama     |    NIM    | Tugas |  UTS  |  UAS  |  Akhir |")
@@ -78,6 +86,8 @@ for item in nilai:
           .format(no=i, nama=item[0], nim=item[1], tugas=item[2], uts=item[3], uas=item[4], akhir=item[5]))
 print("==================================================================")
 Setelah ini selanjutnya kita akan membuat flowcart Sebagai Berikut
+
+```
 
 ![flowcart](foto/flowcart.png)
 
